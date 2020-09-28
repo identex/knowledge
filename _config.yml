@@ -14,17 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: <b style='color :#007bff; font-weight:900!important;'>Jori</b><span>gamy</span>
-email: jorigamy@gmail.com
+title: <span>identex</span>
+email: contact@identex.co
 description: >- # this means to ignore newlines until "baseurl:"
-  Jorigamy is a porting of <a href="https://designrevision.com/download/shards" rel="nofollow">Shards UI toolkit</a> a bootstrap4 starter template intalled for Jekyll static website generator.
+  <a href="https://identex.co">identex</a> is a tool to help protect and grow your local business.
 baseurl: "" # the subpath of your site and 7, e.g. baseurl: "blog/"
 url: "https://knowledge.identex.co" # the base hostname & protocol for your site, e.g. http://example.com
 excerpt_separator: "<!--more-->"
 
 #Use statically.io to serve images
 cdnurl: "https://cdn.statically.io/img/jorigamy.github.io"
-statically: 'yes'
+statically: 'no'
 
 
 #Permalinks
@@ -43,25 +43,27 @@ favicon: https://cdn.statically.io/favicons/jekyllrb.com
 navbar-logo: jorigamy-logo.svg
 
 author :
-  name : Antonio Trento
-  email : jorigamy@gmail.com
-  github : jorigamy/jorigamy.github.io
-  twitter : jorigamy
-  facebook: lantoniotrento
-  linkedin: antoniotrento
-  instagram: lantoniotrento
-  pinterest: antoniotrento
-  google: https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
+  name : identex
+  email : contact@identex.co
+  github : identex
+  twitter : identexco
+  facebook: 
+  linkedin: 
+  instagram: identex.co
+  pinterest: 
+  google: 
   feedburner :
 
-google :
-    tracking_id : 'UA-109407288-1' # Id google analitics
-    optimize_id : 'GTM-MPKVJB9' # I'id di google optimize per A/B Testing
-    tagmanager_id: 'GTM-5VNXBR4' # id di google tag manager
-    ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
+# Fuck tracking. All my homies hate tracking.
+#google :
+#    tracking_id : 'UA-109407288-1' # Id google analitics
+#    optimize_id : 'GTM-MPKVJB9' # I'id di google optimize per A/B Testing
+#    tagmanager_id: 'GTM-5VNXBR4' # id di google tag manager
+#    ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
 
+# If we want to enable comments
 disqus :
-    short_name : jorigamy
+    short_name : identex
     # how to use
     #      {% if site.disqus.short_name %}
     #        {% include JB/disqus.html %}
@@ -70,25 +72,23 @@ disqus :
 
 # data for jekyll-seo-tags plugins
 social:
-  name: lantoniotrento
+  name: identex
   links:
-    - https://twitter.com/jorigamy
-    - https://www.facebook.com/lantoniotrento
-    - https://www.linkedin.com/in/antoniotrento
-    - https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
-    - https://github.com/jorigamy/jorigamy.github.io
-    - https://keybase.io/antoniotrento
+    - https://twitter.com/identexco
+    - https://github.com/identex
 twitter:
-  username: jorigamy
+  username: identexco
 
-facebook:
- app_id: 509727322725898 #the app id from https://developers.facebook.com/
- admins: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
- publisher: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+# Fuck tracking. All my homies hate tracking.
+#facebook:
+# app_id: 509727322725898 #the app id from https://developers.facebook.com/
+# admins: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+# publisher: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
 
+# Email subscriptions
 mailchimp: https://github.us8.list-manage.com/subscribe/post?u=a36bd3e356847dab838227fce&amp;id=bb4fd5f540 # the link of the embed signup form generated from mailchimp into the html code of the embed form
 
-addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
+#addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
 
 # PERSONAL SCRIPTS LOADED GLOBALLY
 # cripts: 
@@ -96,19 +96,19 @@ addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
 #   js: ''
 
 
-algolia:
-  application_id: 'GU8HT2BGPU'
-  index_name:     'your_index_name' # I'm looking to understand how it can be set the index_name of agolia https://www.algolia.com/apps/GU8HT2BGPU/dashboard and https://community.algolia.com/jekyll-algolia/getting-started.html
+#algolia:
+#  application_id: 'GU8HT2BGPU'
+#  index_name:     'your_index_name' # I'm looking to understand how it can be set the index_name of agolia https://www.algolia.com/apps/GU8HT2BGPU/dashboard and https://community.algolia.com/jekyll-algolia/getting-started.html
 
-cloudinary:
-  cloud_name: officialtrento #  NOT WORK FOR NOW from the cloudinary-jekyll plugin guide https://nhoizey.github.io/jekyll-cloudinary/#installation
-  presets:
-  default:
-    min_width: 320
-    max_width: 1600
-    fallback_max_width: 800
-    steps: 5
-    sizes: "(min-width: 50rem) 50rem, 90vw"
+#cloudinary:
+#  cloud_name: officialtrento #  NOT WORK FOR NOW from the cloudinary-jekyll plugin guide https://nhoizey.github.io/jekyll-cloudinary/#installation
+#  presets:
+#  default:
+#    min_width: 320
+#    max_width: 1600
+#    fallback_max_width: 800
+#    steps: 5
+#    sizes: "(min-width: 50rem) 50rem, 90vw"
 
 # Build settings
 markdown: kramdown
@@ -134,22 +134,22 @@ collections:
 
 # Social settings
 500px_url:
-facebook_url: https://facebook.com/lantoniotrento
-github_url:
+facebook_url:
+github_url: https://github.com/identex
 gitlab_url:
-googleplus_url: https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
-instagram_url: https://instagram.com/lantoniotrento
-linkedin_url: https://linkedin.com/in/antoniotrento
-pinterest_url: https://pinterest.com/antoniotrento
+googleplus_url:
+instagram_url: https://instagram.com/identex.co
+linkedin_url:
+pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/lantoniotrento
+twitter_url: https://twitter.com/identexco
 
 
 
 
-gallery-title: Jorigamy
+gallery-title: identex
 gallery-description: >- # this means to ignore newlines until "baseurl:"
-  The gallery section of the jorigamy blog.
+  The gallery section of the identex knowledge base.
 
 
 
