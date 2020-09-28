@@ -38,9 +38,9 @@ statically: 'no'
 
 # Site settings
 
-logo: /assets/images/shard-1-5x-3.png
+logo: /assets/images/identex/INDENTEX-JUST-LOGO-black.png
 favicon: https://cdn.statically.io/favicons/jekyllrb.com
-navbar-logo: jorigamy-logo.svg
+navbar-logo: assets/images/identex/INDENTEX-JUST-LOGO-black.svg
 
 author :
   name : identex

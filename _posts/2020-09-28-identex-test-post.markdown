@@ -5,15 +5,14 @@ tagline:
 date:   2020-09-28 12:43:35 -0500
 categories: identex
 tags: [ identex, info ]
-img: assets/images/identex/INDENTEX-blk.jpg
+img: identex/INDENTEX-blk.jpg
 floating: assets/images/identex/INDENTEX-JUST-LOGO-black.png
-image: assets/images/identex/INDENTEX-blk.jpg
+image: identex/INDENTEX-blk.jpg
 ---
-Learn More about identex!
 <!--more-->
 
 
-# Welcome to ***identex***!
+# Welcome to **identex**!
 
 ## FAQ:
 
