@@ -40,7 +40,7 @@ statically: 'no'
 
 logo: /assets/images/identex/INDENTEX-JUST-LOGO-black.png
 favicon: https://cdn.statically.io/favicons/jekyllrb.com
-navbar-logo: assets/images/identex/INDENTEX-JUST-LOGO-black.svg
+navbar-logo: identex/INDENTEX-JUST-LOGO-black.svg
 
 author :
   name : identex
