@@ -6,7 +6,6 @@ date:   2020-09-28 12:43:35 -0500
 categories: identex
 tags: [ identex, info ]
 img: identex/INDENTEX-blk.jpg
-floating: identex/INDENTEX-JUST-LOGO-black.png
 image: identex/INDENTEX-blk.jpg
 ---
 <!--more-->
