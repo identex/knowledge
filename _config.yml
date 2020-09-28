@@ -62,8 +62,8 @@ author :
 #    ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
 
 # If we want to enable comments
-disqus :
-    short_name : identex
+#disqus :
+#    short_name : identex
     # how to use
     #      {% if site.disqus.short_name %}
     #        {% include JB/disqus.html %}
