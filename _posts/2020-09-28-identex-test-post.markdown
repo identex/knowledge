@@ -35,4 +35,4 @@ Create extra pages, train to make articles. At the very least create a web-form 
 
 Yes
 
-![rupee]({{site.url}}/assets/images/rupee.jpg)
+<img src="{{site.url}}/assets/images/rupee.jpg" alt="rupee" width="100%"/>
