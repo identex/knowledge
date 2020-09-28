@@ -13,20 +13,15 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
 
 
 
-<!-- Shards --><img src="assets/images/shard-1-5x-3.png" alt="Shard" class="shard">
+<!-- Shards --><img src="assets/images/identex/INDENTEX-JUST-LOGO-black.png" alt="Shard" class="shard">
 <!-- Welcome Section -->
 <div class="welcome d-flex justify-content-center flex-column">
     <div class="inner-wrapper mt-auto mb-auto">
-        <h1 class="hidden-sm-down slide-in">{{site.title}}</h1>
-        <h1 style="font-size: 3.25rem!important;" class="hidden-md-up slide-in">{{site.title}}</h1>
-        <br />
-        <p class="slide-in">{{site.description}}</p>
-        <div class="action-links slide-in"><a href="https://github.com/jorigamy/jorigamy.github.io" class="btn btn-primary btn-pill align-self-center mr-2"><i class="fa fa-github mr-1"></i> Fork Me</a> <a href="#" data-scroll-to="#introduction" id="scroll-to-content" class="btn btn-outline-light btn-pill align-self-center">Learn More</a></div>
-    </div>
-    <div class="product-by">
-            <a class="slide-in" href="https://lantoniotrento.github.io" target="_blank">
-                <p>A KIT BY:</p><img class="logo-antonio" style="height:50px;" src="{{ site.url }}{{ site.baseurl }}/assets/images/antonio-trento-small-logo.png" alt="Antonio Trento - Web Marketing, web design, web admin">
-            </a>
+        <h1 class="hidden-sm-down slide-in">{{page.title}}</h1>
+        <h1 style="font-size: 3.25rem!important;" class="hidden-md-up slide-in">{{page.title}}</h1>  
+            <br />
+        <p class="slide-in">{{page.tagline}}</p>
+        <div class="action-links slide-in"><a href="#" data-scroll-to="#posts" id="scroll-to-content" class="btn btn-outline-light btn-pill align-self-center">Read Our Articles</a></div>
     </div>
 </div>
 
@@ -35,7 +30,7 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
 <div class="page-content">
     <!-- Content -->
     <div class="content clearfix">
-        <div id="introduction" class="container mb-5">
+        <div id="posts" class="container mb-5">
             <div class="section-title col-lg-8 col-md-10 ml-auto mr-auto">
                 <p class="lead">Shards is a modern design system based on Bootstrap 4 that comes packed with <b>10 extra custom components</b> and <b>two pre-built landing pages</b>. It’s also lightweight with its stylesheet weighting only <b>~12kb minified and gzipped</b>.</p>
                 <div class="social-actions">
