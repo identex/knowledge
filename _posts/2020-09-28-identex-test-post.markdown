@@ -9,6 +9,9 @@ img: assets/images/identex/INDENTEX-blk.jpg
 floating: assets/images/identex/INDENTEX-JUST-LOGO-black.png
 image: assets/images/identex/INDENTEX-blk.jpg
 ---
+Learn More about identex!
+<!--more-->
+
 
 # Welcome to ***identex***!
 
