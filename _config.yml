@@ -118,6 +118,7 @@ plugins:
   - jekyll-feed
   - jekyll-sass-converter
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 #gems:
 #  - amp-jekyll

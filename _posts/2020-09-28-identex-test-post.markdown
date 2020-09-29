@@ -7,6 +7,9 @@ categories: identex
 tags: [ identex, info ]
 img: identex/INDENTEX-blk.jpg
 image: identex/INDENTEX-blk.jpg
+btn-icon: icon-identex-logo
+btn-text: Return Home
+btn-link: /
 ---
 <!--more-->
 
