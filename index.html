@@ -13,7 +13,7 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
 
 
 
-<!-- Shards --><img src="assets/images/identex/INDENTEX-JUST-LOGO-black.png" alt="logo" class="shard">
+<img src="assets/images/identex/INDENTEX-JUST-LOGO-black.png" alt="logo" class="shard">
 <!-- Welcome Section -->
 <div class="welcome d-flex justify-content-center flex-column">
     <div class="inner-wrapper mt-auto mb-auto">
@@ -39,7 +39,7 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
             <div class="row">
               {% for post in site.posts %}
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                    <div style="margin-top:2em" class="card">{% if post.img %}<img class="card-img-top ll-image" data-img-src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ post.img }}" alt="{{ post.title }} image missing">{% endif %}
+                    <div style="margin-top:2em" class="card">{% if post.img %}<img class="card-img-top ll-image p-2" data-img-src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ post.img }}" alt="{{ post.title }} image missing">{% endif %}
                         <div class="card-body">
                             <h4 class="card-title">{{ post.title }}</h4>
                             <p class="card-text">{{ post.excerpt }}</p><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Read More</a></div>

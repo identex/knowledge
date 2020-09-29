@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is identex?"
-tagline:
+tagline: <i class="fas fa-arrow-down"></i>
 date:   2020-09-28 12:43:35 -0500
 categories: identex
 tags: [ identex, info ]
