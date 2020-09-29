@@ -17,14 +17,15 @@
         </ul>
 
         <!-- Social Icons -->
-        <ul class="header-social-icons navbar-nav ml-auto">          
-          {% if site.author.github %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Fork it" href="https://github.com/{{ site.author.github }}" rel="nofollow" target="_blank"><i class="fa fa-github bounce-element"></i></a></li>{% endif %}
+        <ul class="header-social-icons navbar-nav ml-auto"> 
           {% if site.author.facebook %}<li class="nav-item">
-            <a class="nav-link" data-toggle="tooltip" title="Follow on facebook!" href="https://www.facebook.com/{{ site.author.facebook }}" rel="nofollow" target="_blank" title="Share on Facebook"> <i class="fa fa-facebook bounce-element"></i></a>
+            <a class="nav-link" data-toggle="tooltip" title="Follow on facebook!" href="https://www.facebook.com/{{ site.author.facebook }}" rel="nofollow" target="_blank" title="Follow us on Facebook"> <i class="fa fa-facebook bounce-element"></i></a>
           </li>{% endif %}
-          {% if site.author.linkedin %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Connect with me" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" rel="nofollow" target="_blank"><i class="fa fa-linkedin bounce-element"></i></a></li>{% endif %}
-          {% if site.author.twitter %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Tweet together" href="https://twitter.com/{{ site.author.twitter }}" rel="nofollow" target="_blank"><i class="fa fa-twitter bounce-element"></i></a></li>{% endif %}
-          {% if site.author.google %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Enter in my community" href="{{ site.author.google }}" rel="nofollow" target="_blank"><i class="fa fa-google-plus bounce-element"></i></a></li>{% endif %}          
+          {% if site.author.linkedin %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Connect with us on LinkedIn" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" rel="nofollow" target="_blank"><i class="fa fa-linkedin bounce-element"></i></a></li>{% endif %}
+          {% if site.author.twitter %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Tweet @ us!" href="https://twitter.com/{{ site.author.twitter }}" rel="nofollow" target="_blank"><i class="fa fa-twitter bounce-element"></i></a></li>{% endif %}
+          {% if site.author.angellist %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="See us on Angel List" href="https://angel.co/company/{{ site.author.angellist }}" rel="nofollow" target="_blank"><i class="fa fa-angellist bounce-element"></i></a></li>{% endif %}
+          {% if site.author.instagram %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Check out our Insta" href="https://www.instagram.com/{{ site.author.instagram }}" rel="nofollow" target="_blank"><i class="fa fa-instagram bounce-element"></i></a></li>{% endif %}
+          {% if site.author.github %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Browse our GitHub" href="https://github.com/{{ site.author.github }}" rel="nofollow" target="_blank"><i class="fa fa-github bounce-element"></i></a></li>{% endif %}
           <button style="margin-left: 1em" type="button" class="btn btn-success" onclick="window.open('https://identex.co')"><i class="icon-identex-logo animated infinite flash"></i> Get identex</button>
           
         </ul>
