@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-half
 title:  What is identex?
 tagline: <i class="fas fa-arrow-down h2"></i>
 date:   2020-09-28 12:43:35 -0500
