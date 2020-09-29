@@ -2,7 +2,7 @@
 layout: post-half
 title:  What is identex?
 tagline: <i class="fas fa-arrow-down h2"></i>
-date:   2020-09-29 18:43:35 -0500
+date:   2020-09-28 12:43:35 -0500
 categories: identex
 tags: [ identex, info ]
 img: identex/INDENTEX-blk.jpg
