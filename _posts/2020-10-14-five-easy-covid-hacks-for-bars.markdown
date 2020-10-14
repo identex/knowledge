@@ -12,7 +12,7 @@ image: identex/INDENTEX-blk.jpg
 
 # 5 Easy COVID Hacks for Bars
 
-#
+<br/>
 
 ## Outdoor Seating/Standing
 
