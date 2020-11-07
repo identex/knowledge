@@ -3,8 +3,8 @@ layout: post-half
 title:  8 Ways to Create Active Customer Base
 tagline: <i class="fas fa-arrow-down h2"></i>
 date:   2020-10-14 18:43:35 -0500
-categories: [ COVID, Safety, Bars ]
-tags: [ COVID, COVID-19, Bars, Safety ]
+categories: [ Bars, Restaurants, Customers, Business, Marketing ]
+tags: [ Bars, Restaurants, Marketing, Tips ]
 img: identex/INDENTEX-blk.jpg
 image: identex/INDENTEX-blk.jpg
 ---
