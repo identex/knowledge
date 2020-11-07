@@ -48,6 +48,6 @@ It is no secret, everyone likes free. Holding givaways and sweepstakes can be a 
 
 ## Identex
 
-[**identex**](https://identex.co) can be an easy and quick ways to gather customer analytics any time a government issues ID is required for a purchase or entry into your business.
+[**identex**](https://identex.co) can be an easy and quick way to gather customer analytics any time a government issued ID is required for a purchase or entry into your business.
 
 Identex is an easy, accurate, and reliable way to verify identification and access customer analyitics using a mobile device. Customer analytics can be gathered with a quick scan of a patron's driver's license, allowing you to easily maintain crucial non identifiable information of your active customer base. This information can be viewed over multiple time frames, allowing you to view customer information with significantly less effort on your part when compared to other options.
